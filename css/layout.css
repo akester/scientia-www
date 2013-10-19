@@ -32,7 +32,7 @@
 	left: -50%;
 	/* This must match the .center-anchor width */
 	width: 750px;
-	height: 250px;
+	height: 375px;
 }
 
 .logo-box {
@@ -48,13 +48,13 @@
 
 .engine-select {
 	position: absolute;
-	top: 15%;
+	top: 7%;
 	left: 75%;
 }
 
 .main-input-anchor {
 	position: absolute;
-	top: 45%;
+	top: 27%;
 	width: 650px;
 	left: 50%
 }
