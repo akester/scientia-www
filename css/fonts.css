@@ -46,3 +46,15 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #333333;
 }
+
+.js-error {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: #CC3300;
+}
+
+.loading-text {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: #333333;
+}

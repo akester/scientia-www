@@ -48,9 +48,18 @@
 				<button id="engine-update">Go</button>
 			</div>
 			<div class="main-input-anchor">
+				<!-- Module layour replaces this layout. -->
 				<div class="main-input">
-					<input type="text" name="i" placeholder="What do you want to know?" />
-					<button name="main-submit">Submit</button>
+					<div class="loading-text">
+						Loading module interface. Please be patient.
+					</div>
+					<!-- We REALLY need to run JS. -->
+					<noscript>
+						<div class="js-error">
+							JavaScript support is required.<br />
+							Please enable JavaScript or update your browser.
+						</div>
+					</noscript>
 				</div>
 			</div>
 		</div>
