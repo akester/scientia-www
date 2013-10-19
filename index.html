@@ -42,13 +42,6 @@
 			populateEngineMenu();
 		});
 	</script>
-	
-	<!-- Jquery UI Apply -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$("#engine-update").button();
-		});
-	</script>
 </head>
 <body>
 	<div class="center-anchor">
@@ -64,9 +57,7 @@
 				<select id="engine" disabled="disabled">
 					<option>Loading...</option>
 				</select>
-				<button id="engine-update" onClick="updateEngineLayout();" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
-					<span class="ui-button-text">Go</span>
-				</button>
+				<button id="engine-update" onClick="updateEngineLayout();">Go</button>
 			</div>
 			<!-- Module layout replaces this layout. -->
 			<div class="main-input">
