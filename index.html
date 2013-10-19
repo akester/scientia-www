@@ -42,23 +42,23 @@
 			</div>
 			<div class="engine-select">
 				<span class="engine-select-text">Engine: </span>
-				<select id="engine">
-					<option>Logic</option>
+				<select id="engine" disabled="disabled">
+					<option>Loading...</option>
 				</select>
 				<button id="engine-update">Go</button>
 			</div>
 			<div class="main-input-anchor">
 				<!-- Module layout replaces this layout. -->
 				<div class="main-input">
-					<div class="loading-text">
-						Loading module interface. Please be patient.
-					</div>
+					<span class="loading-text">
+						Loading module interface. Please be patient. <br />
+					</span>
 					<!-- We REALLY need to run JS. -->
 					<noscript>
-						<div class="js-error">
+						<span class="js-error">
 							JavaScript support is required.<br />
 							Please enable JavaScript or update your browser.
-						</div>
+						</span>
 					</noscript>
 				</div>
 			</div>
