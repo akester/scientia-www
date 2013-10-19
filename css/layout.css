@@ -47,9 +47,8 @@
 }
 
 .engine-select {
-	position: absolute;
-	top: 7%;
-	left: 75%;
+	position: relative;
+	float: right;
 }
 
 .main-input-anchor {
@@ -64,7 +63,7 @@
 }
 
 .main-input input {
-	width: 500px;
+	width: 575px;
 }
 
 .footer-anchor {
