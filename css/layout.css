@@ -53,16 +53,17 @@
 .main-input-anchor {
 	position: absolute;
 	top: 27%;
-	width: 650px;
+	width: 750px;
 	left: 50%
 }
 .main-input {
 	position: absolute;
 	left: -50%;
+	width: 750px;
 }
 
 .main-input input {
-	width: 575px;
+	width: 100%;
 }
 
 .footer-anchor {

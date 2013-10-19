@@ -19,11 +19,8 @@
  *    You should have received a copy of the GNU General Public License
  *    along with Scientia.  If not, see <http://www.gnu.org/licenses/>.
  */
- 
- /*
-  * This file only includes sub css files.
-  * NO CSS INFORMATION SHOULD BE IN THIS FILE!!!
-  */
-@import url("layout.css");
-@import url("fonts.css");
-@import url("module.css");
+
+.buttons {
+	float: right;
+	margin-top: 10px;
+}

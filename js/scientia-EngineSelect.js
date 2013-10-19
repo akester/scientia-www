@@ -60,8 +60,9 @@ function getEngineLayout(module, mode) {
 		}
 	).error(function() {
 		var layout = '';
-		layout += '<div class="main-input>';
-		layout += '<span class="js-error">Error loading layout</span>';
+		layout += '<div class="main-input">';
+		layout += '<span class="js-error">Error loading layout.</span>';
+		layout += '</div>';
 		$('.main-input').replaceWith(layout);
 	});
 }
