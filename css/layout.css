@@ -36,8 +36,7 @@
 }
 
 .logo-box {
-	position: relative;
-	float: left;
+	
 }
 
 .tagline-box {
@@ -46,43 +45,21 @@
 }
 
 .engine-select {
-	position: relative;
-	float: right;
+	position: absolute;
+	right: 0%;
+	top: 0%;
 }
 
-.main-input-anchor {
-	position: absolute;
-	top: 27%;
-	width: 750px;
-	left: 50%
-}
 .main-input {
-	position: absolute;
-	left: -50%;
 	width: 750px;
-}
-
-.main-input input {
-	width: 100%;
-}
-
-.footer-anchor {
-	/* This must match the .center-anchor width */
-	width: 750px;
-	position: absolute;
-	left: 50%;
-	top: 85%;
+	margin: 0px auto;
+	margin-top: 10px;
 }
 
 .footer {
 	/* This must match the .center-anchor width */
 	width: 750px;
-	position: absolute;
-	left: -50%;
 	margin: 0px auto;
+	margin-top: 50px;
 	text-align: center;
-}
-
-.footer-buffer {
-	margin-bottom: 15px;
 }
