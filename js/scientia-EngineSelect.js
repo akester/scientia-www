@@ -37,7 +37,13 @@ function populateEngineMenu() {
 			list += '</select>';
 			$('#engine').replaceWith(list);
 		}
-	);
+	).error(function() {
+		var list = '';
+		list += '<select id="engine" disabled="disabled">';
+		list += '<option>Error Loading Engines</option>';
+		list += '</select>';
+		$('#engine').replaceWith(list);
+	});
 }
 
 function getEngineLayout() {
