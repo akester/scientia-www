@@ -66,3 +66,20 @@
 .main-input input {
 	width: 500px;
 }
+
+.footer-anchor {
+	/* This must match the .center-anchor width */
+	width: 750px;
+	position: absolute;
+	left: 50%;
+	top: 85%;
+}
+
+.footer {
+	/* This must match the .center-anchor width */
+	width: 750px;
+	position: absolute;
+	left: -50%;
+	margin: 0px auto;
+	text-align: center;
+}
