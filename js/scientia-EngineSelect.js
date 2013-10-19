@@ -71,6 +71,9 @@ function getEngineLayout(module, mode) {
 function updateEngineLayout() {
 	var e = document.getElementById("engine");
 	var module = e.options[e.selectedIndex].value;
+	if (module == currentEngine) {
+		return;
+	}
 	getEngineLayout(module, 'input');
 	currentEngine = module;
 }
