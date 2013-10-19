@@ -24,7 +24,9 @@ var apiLocation = 'http://localhost/scientia-engine/';
 function populateEngineMenu() {
 	$.getJSON(
 		apiLocation,
-		'c=getModuleNames',
+		{
+			c: 'getModuleNames'
+		},
 		function(data) {
 			modules = data.modules;
 			var list = '';
