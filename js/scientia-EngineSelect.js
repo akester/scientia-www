@@ -20,6 +20,7 @@
  */
 
 var apiLocation = 'http://localhost/scientia-engine/';
+var currentEngine = '';
 
 function populateEngineMenu() {
 	$.getJSON(
@@ -71,4 +72,5 @@ function updateEngineLayout() {
 	var e = document.getElementById("engine");
 	var module = e.options[e.selectedIndex].value;
 	getEngineLayout(module, 'input');
+	currentEngine = module;
 }
