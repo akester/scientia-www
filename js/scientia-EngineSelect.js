@@ -46,10 +46,28 @@ function populateEngineMenu() {
 	});
 }
 
-function getEngineLayout() {
-	
+function getEngineLayout(module, mode) {
+	$.getJSON(
+		apiLocation,
+		{
+			c: 'getModuleLayout',
+			module: module,
+			mode: mode
+		},
+		function(data) {
+			var layout = data.layout;
+			$('.main-input').replaceWith(layout);
+		}
+	).error(function() {
+		var layout = '';
+		layout += '<div class="main-input>';
+		layout += '<span class="js-error">Error loading layout</span>';
+		$('.main-input').replaceWith(layout);
+	});
 }
 
-function updateLayout() {
-	
+function updateEngineLayout() {
+	var e = document.getElementById("engine");
+	var module = e.options[e.selectedIndex].value;
+	getEngineLayout(module, 'input');
 }
