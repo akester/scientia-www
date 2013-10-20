@@ -19,9 +19,6 @@
  *    along with Scientia.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-var apiLocation = 'http://localhost/scientia-engine/';
-var currentEngine = '';
-
 function populateEngineMenu() {
 	$.getJSON(
 		apiLocation,
