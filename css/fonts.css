@@ -58,3 +58,16 @@
 	font-weight: bold;
 	color: #333333;
 }
+
+/* Project Page Fonts */
+.project {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.1em;
+}
+.project .logo {
+	font-size: 1.5em;
+}
+
+.project .tagline {
+	font-size: .75em;
+}
